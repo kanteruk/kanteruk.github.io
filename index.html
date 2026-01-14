@@ -6,11 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body { font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 16px; line-height: 1.6; }
-    h1, h2 { border-bottom: 1px solid #ddd; }
+    h1, h2 { border-bottom: 3px solid #3b7ddd; }
+	h2 {
+	  font-size: 24px;
+	  color: #3b7ddd;
+	  border-bottom: 3px solid #3b7ddd;
+	  padding-bottom: 4px;
+	  margin-bottom: 16px;
+	}	
     ul { padding-left: 20px; }
 	
 	.exp-table {
-	  #width: 100%;
+	  width: 100%;
 	  border-collapse: collapse;
 	  margin-top: 12px;
 	}
@@ -28,11 +35,40 @@
 	.exp-table tbody tr {
 	  border-bottom: 1px solid #eee;
 	}
+	.exp-table tbody tr.last {
+	  border-bottom: none;
+	}
 
 	.exp-table th {
 	  font-weight: 600;
 	}
-	
+
+
+
+
+	.experience-item {
+	  display: flex;
+	  justify-content: space-between;
+	  margin-bottom: 12px;
+	  flex-wrap: wrap;
+	}
+
+	.role {
+	  font-weight: bold;
+	  flex: 1 1 40%;
+	}
+
+	.company {
+	  flex: 1 1 40%;
+	}
+
+	.years {
+	  font-style: italic;
+	  color: #666;
+	  flex: 0 0 120px;
+	  text-align: right;
+	}
+
   </style>
 </head>
 <body>
@@ -51,48 +87,80 @@ VCL/FMX, desktop application development, multithreading, databases, and API int
 
 <h2>Core Skills</h2>
 <ul>
-  <li>Delphi 7-12 (VCL, FMX)</li>
-  <li>Strong experience with components: DevExpress, FastReport, MyDAC, TMS and many others</li>
+  <li>Delphi (7-XE12), VCL, FMX, WinAPI, Custom Components</li>
+  <li>Strong experience with components: DevExpress, FastReport, MyDAC, TMS, JEDI and many others</li>
   <li>Windows, macOS</li>
   <li>Multithreading</li>
-  <li>FireDAC, MSSQL, SQLite</li>
+  <li>FireDAC, MSSQL, MySQL, SQLite</li>
   <li>REST / GraphQL</li>
 </ul>
 
 <h2>Other Skills</h2>
 <ul>
-  <li>Bachelor's degree in Computer Science and Mathematics</li>
+  <li>GIT, SVN</li>
+  <li>Jira</li>
+  <li>XML, JSON, HTML</li>
+  <li>PHP, C++</li>
+  <li>Joomla</li>
+  <li>Bachelor's and Specialist degree in Computer Science and Mathematics</li>
 </ul>
 
-<h2>Experience Overview</h2>
-
+<h2>Work Experience</h2>
 <table class="exp-table">
   <thead>
     <tr>
-      <th>Area</th>
+      <th>Position</th>
+	  <th>Company</th>
+	  <th>Achievements/Tasks</th>
       <th>Years</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Delphi (VCL / FMX)</td>
-      <td>15+</td>
+      <td class="role">Software Developer (Delphi)</td>
+      <td class="company">eMagicOne</td>	  
+	  <td class="tasks">
+		<ul>
+		  <li>Delphi FMX for building cross-platfom application (win, mac)</li>
+		  <li>CMS Desktop Software writing</li>
+		</ul>
+	  </td>	  
+	  <td class="years">2016 – Present</td>	
     </tr>
     <tr>
-      <td>Windows Desktop Development</td>
-      <td>15+</td>
+      <td class="role">Head of the computer department</td>
+      <td class="company">Furniture factory “NOVA”</td>	  
+	  <td class="tasks">
+		<ul>
+		  <li>Management, supporting, analytics of applications</li>
+		  <li>Software development</li>
+		</ul>
+	  </td>	  
+	  <td class="years">2014 – 2016</td>	
     </tr>
     <tr>
-      <td>macOS Development</td>
-      <td>5+</td>
+      <td class="role">Deputy head of the computer department</td>
+      <td class="company">Furniture factory “NOVA”</td>	  
+	  <td class="tasks">
+		<ul>
+		  <li>Administrate Active Directory</li>
+		  <li>Software development</li>
+		</ul>
+	  </td>	  
+	  <td class="years">2013 – 2014</td>	
     </tr>
-    <tr>
-      <td>Multithreading & Concurrency</td>
-      <td>10+</td>
-    </tr>
-    <tr>
-      <td>REST / GraphQL APIs</td>
-      <td>6+</td>
+    <tr class="last">
+      <td class="role">Application programmer (Delphi)</td>
+      <td class="company">Furniture factory “NOVA”</td>	  
+	  <td class="tasks">
+		<ul>
+		  <li>Accounting and production software writing</li>
+		  <li>Delphi ADO + MSSQL client-server application writing</li>
+		  <li>Programing: COM ports, Bar Code reader, Termal printer</li>
+		  <li>1C Accounting, medoc, Client-Bank</li>
+		</ul>
+	  </td>	  
+	  <td class="years">2006 – 2013</td>
     </tr>
   </tbody>
 </table>
@@ -100,14 +168,19 @@ VCL/FMX, desktop application development, multithreading, databases, and API int
 <h2>Education</h2>
 <table class="exp-table">
   <tbody>
-    <tr>
-      <td>Computer Science and Mathematics</td>
-	  <td>Ternopil national pedagogical university</td>
-      <td>2000 – 2006</td>
+    <tr class="last">
+      <td class="role">Computer Science and Mathematics</td>
+      <td class="company">Ternopil national pedagogical university</td>
+	  <td class="years">2000 – 2006</td>
     </tr>
   </tbody>
-</table>
+</table>  
 
+<h2>Interests</h2>
+<ul>
+  <li>Delphi Components Library (BPL)</li>
+  <li>Mathematics algorithms</li>
+</ul>
 
 <h2>Projects</h2>
 <ul>
