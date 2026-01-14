@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ruslan Kanteruk - Delphi Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; line-height: 1.6; }
+    h1, h2 { border-bottom: 1px solid #ddd; }
+    ul { padding-left: 20px; }
+  </style>
+</head>
+<body>
+
+<h1>Ruslan Kanteruk</h1>
+<p><strong>Delphi Developer</strong></p>
+
+<h2>Profile</h2>
+<p>
+Delphi developer with strong experience in desktop application development (starting from Delphi 7 and up to RadStudio 12.3) more then 20+ years. 
+I am ready to work full-time or part-time as a desktop software developer and deliver high-quality products for your business needs.
+VCL/FMX, desktop application development, multithreading, databases, and API integrations.
+</p>
+ 
+
+<h2>Core Skills</h2>
+<ul>
+  <li>Delphi 7-12 (VCL, FMX)</li>
+  <li>Windows, macOS</li>
+  <li>Multithreading</li>
+  <li>FireDAC, MSSQL, SQLite</li>
+  <li>REST / GraphQL</li>
+</ul>
+
+<h2>Projects</h2>
+<ul>
+  <li>item 1</li>
+  <li>item 2</li>
+  <li>item 3</li>
+</ul>
+
+<h2>Links</h2>
+<ul>
+  <li><a href="https://github.com/kanteruk">GitHub Profile</a></li>
+</ul>
+
+</body>
+</html>
